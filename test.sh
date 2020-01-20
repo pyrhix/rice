@@ -23,6 +23,6 @@ sudo systemctl start bluetooth.service
 
 
 wget https://danbooru.donmai.us/data/__hatsune_miku_vocaloid_and_1_more_drawn_by_wokada__c8b69aff7a45f6d10ddabcb662ad0033.png
-feh --bg-scale __hatsune_miku_vocaloid_and_1_more_drawn_by_wokada__c8b69aff7a45f6d10ddabcb662ad0033
+feh --bg-scale __hatsune_miku_vocaloid_and_1_more_drawn_by_wokada__c8b69aff7a45f6d10ddabcb662ad0033.png
 
 startx
