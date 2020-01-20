@@ -1,0 +1,15 @@
+URxvt.intensityStyles:	false
+URxvt.foreground:	#FFFFFF
+URxvt.background:       [70]#000000
+URxvt.depth:		32
+URxvt.scrollBar:	false
+URxvt.cursorColor:	white
+URxvt.font                   : xft:Tamzen:pixelsize=14
+URxvt.boldFont               : xft:Tamzen:pixelsize=14
+
+rofi.fake-transparency:	true
+rofi.lines:		3
+rofi.bw:		0
+rofi.opacity:		"10"
+rofi.hide-scrollbar:	true
+rofi.width:		30
