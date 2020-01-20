@@ -1,0 +1,2 @@
+# rice
+my arch install
