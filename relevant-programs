@@ -1,0 +1,69 @@
+for installation
+useradd -m -g wheel name
+passwd name
+pacman -S nano base-devel nano git
+nano /etc/sudoers
+  
+  then, once out of root
+
+pacman -S xorg-server xorg-xinit
+pacman -S i3-gaps i3status rxvt-unicode dmenu noto-fonts alsa-utils networkmanager
+sudo systemctl enable NetworkManager
+pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+yay -s tamzen-font
+startx
+
+=========================================================
+
+feh
+compton
+ranger
+  w3m (for ranger image preview)
+firefox (or surf, qutebrowser)
+youtube-dl
+neofetch
+scrot
+discord
+syncthing
+AUR (get yay)
+spotify-adblock-git(AUR)
+mpd
+ncmpcpp
+newsboat
+htop
+mpv
+
+#bluetooth
+bluez
+bluez-utils
+pulseaudio
+pavucontrol
+sudo systemctl enable bluetooth.service
+blueman
+cmus for bluetooth localmusic, until you can fix mpd
+
+#Games#
+steam
+openarena (AUR)
+katawa-shoujo(AUR)
+mari0
+nottetris2(AUR)
+notpacman(AUR)
+
+lunar-magic(AUR)(mario world editor)
+kjv-git(AUR)
+
+
+
+
+========================================================
+
+  important to remember terminal commands
+
+nmcli device wifi connect [ssid] password [password]
+xrdb ~/.Xresources
+feh --bg-scale ~/Downloads/1552510708377.png
+LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
+nl numbers lines
+
+change ps1= in bashrc
