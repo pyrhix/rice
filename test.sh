@@ -11,15 +11,6 @@ mv .Xresources ~/
 mv .config ~/
 mv .newsboat ~/
 
-
-#yay installation
-#git clone https://aur.archlinux.org/yay.git
-#cd yay
-#makepkg -si
-
-#cd ~/
-#yay -S tamzen-font spotify-adblock-git
-
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth.service
 
@@ -31,3 +22,11 @@ sudo systemctl start bluetooth.service
 feh --bg-fill 
 
 startx
+
+#yay installation
+#git clone https://aur.archlinux.org/yay.git
+#cd yay
+#makepkg -si
+
+#cd ~/
+#yay -S tamzen-font spotify-adblock-git
