@@ -13,12 +13,12 @@ mv .newsboat ~/
 
 
 #yay installation
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+#git clone https://aur.archlinux.org/yay.git
+#cd yay
+#makepkg -si
 
-cd ~/
-yay -S tamzen-font spotify-adblock-git
+#cd ~/
+#yay -S tamzen-font spotify-adblock-git
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth.service
