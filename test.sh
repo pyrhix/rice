@@ -10,6 +10,7 @@ mv .xinitrc ~/
 mv .Xresources ~/
 mv .config ~/
 mv .newsboat ~/
+cd
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth.service
@@ -28,5 +29,4 @@ startx
 #cd yay
 #makepkg -si
 
-#cd ~/
 #yay -S tamzen-font spotify-adblock-git
