@@ -1,7 +1,7 @@
 for installation
 useradd -m -g wheel name
 passwd name
-pacman -S nano base-devel nano git
+pacman -S nano base-devel git
 nano /etc/sudoers
   
   then, once out of root
