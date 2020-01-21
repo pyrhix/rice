@@ -3,7 +3,7 @@ cd ~/
 sudo pacman -S xorg-server xorg-xinit
 sudo pacman -S i3-gaps i3status rxvt-unicode dmenu alsa-utils networkmanager
 sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
-sudo pacman -S feh compton ranger w3m firefox youtube-dl neofetch scrot discord syncthing mpd ncmpcpp newsboat htop mpv bluez bluez-utils pulseaudio pavucontrol blueman cmus
+sudo pacman -S feh compton ranger w3m firefox youtube-dl neofetch scrot discord syncthing mpd ncmpcpp newsboat htop mpv bluez bluez-utils pulseaudio pavucontrol blueman cmus pulseaudio-bluetooth
 
 cd ~/rice
 mv .xinitrc ~/
