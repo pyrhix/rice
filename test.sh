@@ -3,7 +3,7 @@ cd ~/
 sudo pacman -S xorg-server xorg-xinit
 sudo pacman -S i3-gaps i3status rxvt-unicode dmenu alsa-utils networkmanager
 sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
-sudo pacman -S feh compton ranger w3m brave youtube-dl neofetch scrot discord syncthing mpd ncmpcpp newsboat htop mpv bluez bluez-utils pulseaudio pavucontrol blueman cmus pulseaudio-bluetooth
+sudo pacman -S feh compton ranger w3m youtube-dl neofetch scrot discord syncthing mpd ncmpcpp newsboat htop mpv bluez bluez-utils pulseaudio pavucontrol blueman cmus pulseaudio-bluetooth
 
 cd ~/rice
 mv .xinitrc ~/
@@ -13,10 +13,8 @@ mv .newsboat ~/
 cd
 
 sudo systemctl enable NetworkManager
-sudo systemctl enable bluetooth.service
 
 sudo systemctl start NetworkManager
-sudo systemctl start bluetooth.service
 
 
 #add wallpaper to repo
@@ -29,4 +27,4 @@ sudo systemctl start bluetooth.service
 #cd yay
 #makepkg -si
 
-#yay -S tamzen-font spotify-adblock-git
+#yay -S tamzen-font spotify-adblock-git brave-bin
