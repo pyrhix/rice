@@ -148,6 +148,7 @@ exec --no-startup-id mpd
 bindsym $mod+n			exec urxvt -e newsboat
 bindsym $mod+r 			exec urxvt -e ranger
 bindsym $mod+w			exec brave
+bindsym $mod+Shift+w		exec discord
 bindsym $mod+i 			exec urxvt -e htop
 
 #audio keys (by intervals of 5)
