@@ -13,9 +13,9 @@ mv .newsboat ~/
 cd
 
 sudo systemctl enable NetworkManager
-
+sudo systemctl enable bluetooth.service
 sudo systemctl start NetworkManager
-
+sudo systemctl start bluetooth.service
 
 #add wallpaper to repo
 #feh --bg-fill 
