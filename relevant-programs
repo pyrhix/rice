@@ -39,6 +39,7 @@ bluez-utils
 pulseaudio
 pavucontrol
 sudo systemctl enable bluetooth.service
+pulseaudio-bluetooth
 blueman
 cmus for bluetooth localmusic, until you can fix mpd
 
