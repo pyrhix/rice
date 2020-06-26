@@ -41,7 +41,8 @@ pavucontrol
 sudo systemctl enable bluetooth.service
 pulseaudio-bluetooth
 blueman
-cmus for bluetooth localmusic, until you can fix mpd
+
+fprintd for fingerprint reader
 
 #Games#
 steam
