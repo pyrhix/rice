@@ -164,6 +164,8 @@ bindsym Shift+XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym $mod+d exec dmenu_run
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+bindsym XF86Launch1 exec xset dpms force off
+
 #Unused
 # change container layout (stacked, tabbed, toggle split)
 #bindsym $mod+s layout stacking
