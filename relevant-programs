@@ -32,6 +32,7 @@ ncmpcpp
 newsboat
 htop
 mpv
+xdg-utils (for opening links)
 
 #bluetooth
 bluez
