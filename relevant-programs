@@ -34,6 +34,8 @@ newsboat
 htop
 mpv
 xdg-utils (for opening links)
+pulseaudio-alsa (allows unmuting once pulseaudio is installed)
+sshfs
 
 #bluetooth
 bluez
