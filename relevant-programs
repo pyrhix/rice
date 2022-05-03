@@ -73,6 +73,7 @@ xrdb ~/.Xresources
 feh --bg-scale ~/Downloads/1552510708377.png
 LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 nl numbers lines
+bluetoothctl
 
 change ps1= in bashrc
 export PS1="[\[$(tput sgr0)\]\[\033[38;5;86m\]\u\[$(tput sgr0)\]\[\033[38;5;93m\]@\[$(tput sgr0)\]\[\033[38;5;47m\]\H\[$(tput sgr0)\] \W]\\$ \[$(tput sgr0)\]"
