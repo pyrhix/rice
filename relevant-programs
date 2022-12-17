@@ -1,3 +1,6 @@
+
+
+
 for installation
 useradd -m -g wheel name
 passwd name
@@ -17,7 +20,7 @@ startx
 =========================================================
 
 feh
-compton
+picom
 ranger
 w3m (for ranger image preview)
 librewolf (or if you want minimalism, surf or qutebrowser)
