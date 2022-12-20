@@ -159,6 +159,8 @@ bindsym $mod+i 			exec urxvt -e htop
 #bindsym Shift+XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 #bindsym Shift+XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 
+#audio keys for Thinkpad T530
+
 # Increase volume
 bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume @DEFAULT_SINK@ +1000"
 
