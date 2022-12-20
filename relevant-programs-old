@@ -1,0 +1,79 @@
+for installation
+useradd -m -g wheel name
+passwd name
+pacman -S nano base-devel git
+nano /etc/sudoers
+  
+  then, once out of root
+
+pacman -S xorg-server xorg-xinit
+pacman -S i3-gaps i3status rxvt-unicode dmenu noto-fonts alsa-utils networkmanager
+sudo systemctl enable NetworkManager
+pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+yay -s tamzen-font
+yay -s ungoogled-chromium
+startx
+
+=========================================================
+
+feh
+picom
+ranger
+w3m (for ranger image preview)
+librewolf (or if you want minimalism, surf or qutebrowser)
+youtube-dl
+neofetch
+scrot
+discord
+syncthing
+AUR (get yay)
+spotify-adblock-git(AUR)
+mpd
+ncmpcpp
+newsboat
+htop
+mpv
+xdg-utils (for opening links)
+pulseaudio-alsa (allows unmuting once pulseaudio is installed)
+sshfs
+
+#bluetooth
+bluez
+bluez-utils
+pulseaudio
+pavucontrol
+sudo systemctl enable bluetooth.service
+pulseaudio-bluetooth
+blueman
+
+fprintd for fingerprint reader
+
+#Games#
+steam
+openarena (AUR)
+katawa-shoujo(AUR)
+mari0
+nottetris2(AUR)
+notpacman(AUR)
+runelite(AUR)
+
+
+lunar-magic(AUR)(mario world editor)
+kjv-git(AUR)
+
+
+
+
+========================================================
+
+  important to remember terminal commands
+
+nmcli device wifi connect [ssid] password [password]
+xrdb ~/.Xresources
+feh --bg-scale ~/Downloads/1552510708377.png
+LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
+nl numbers lines
+bluetoothctl
+
+change ps1= in bashrc
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;86m\]\u\[$(tput sgr0)\]\[\033[38;5;93m\]@\[$(tput sgr0)\]\[\033[38;5;47m\]\H\[$(tput sgr0)\] \W]\\$ \[$(tput sgr0)\]"
