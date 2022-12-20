@@ -2,43 +2,34 @@
 
 
 for installation
-useradd -m -g wheel name
-passwd name
-pacman -S nano base-devel git
-nano /etc/sudoers
+iwctl
+station wlan0 scan
+station wlan0 (insert ssid here)
+pacman -Syy
+pacman -S archinstall
+
   
   then, once out of root
 
-pacman -S xorg-server xorg-xinit
-pacman -S i3-gaps i3status rxvt-unicode dmenu noto-fonts alsa-utils networkmanager
-sudo systemctl enable NetworkManager
-pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+pacman -S i3-gaps i3status rxvt-unicode dmenu noto-fonts alsa-utils noto-fonts-cjk noto-fonts-emoji picom
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay -s tamzen-font
-yay -s ungoogled-chromium
 startx
 
 =========================================================
 
+#necessary programs
 feh
-picom
-ranger
-w3m (for ranger image preview)
-librewolf (or if you want minimalism, surf or qutebrowser)
-youtube-dl
+yt-dlp
 neofetch
 scrot
 discord
 syncthing
-AUR (get yay)
-spotify-adblock-git(AUR)
 mpd
 ncmpcpp
-newsboat
-htop
 mpv
-xdg-utils (for opening links)
+xdg-utils (for opening links, comes with firefox)
 pulseaudio-alsa (allows unmuting once pulseaudio is installed)
-sshfs
 
 #bluetooth
 bluez
@@ -48,6 +39,15 @@ pavucontrol
 sudo systemctl enable bluetooth.service
 pulseaudio-bluetooth
 blueman
+
+#suggestions
+spotify-adblock-git(AUR)
+sshfs
+newsboat
+htop
+librewolf (or if you want minimalism, surf or qutebrowser)
+ranger
+w3m (for ranger image preview)
 
 fprintd for fingerprint reader
 
