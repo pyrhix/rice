@@ -147,18 +147,29 @@ exec --no-startup-id mpd
 #application binds
 bindsym $mod+n			exec urxvt -e newsboat
 bindsym $mod+r 			exec urxvt -e ranger
-bindsym $mod+w			exec librewolf
+bindsym $mod+w			exec firefox
 bindsym $mod+Shift+w		exec discord
 bindsym $mod+i 			exec urxvt -e htop
 
-#audio keys (by intervals of 5)
+##audio keys (by intervals of 5)(for Thinkpad T400)
+#bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5+ unmute"
+#bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5- unmute"
+#bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
+##audio by intervals of 1
+#bindsym Shift+XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
+#bindsym Shift+XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 
-bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5+ unmute"
-bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5- unmute"
-bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
-#audio by intervals of 1
-bindsym Shift+XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
-bindsym Shift+XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
+# Increase volume
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume @DEFAULT_SINK@ +1000"
+
+# Decrease volume
+bindsym XF86AudioLowerVolume exec "pactl set-sink-volume @DEFAULT_SINK@ -1000"
+
+# Mute volume
+bindsym XF86AudioMute exec "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+
+# Mute microphone
+bindsym XF86AudioMicMute exec "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
