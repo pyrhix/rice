@@ -37,6 +37,7 @@ bluez
 bluez-utils
 pulseaudio
 pavucontrol
+paprefs (for simultaneous audio through multiple sources)
 sudo systemctl enable bluetooth.service
 pulseaudio-bluetooth
 blueman
