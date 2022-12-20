@@ -151,7 +151,7 @@ bindsym $mod+w			exec firefox
 bindsym $mod+Shift+w		exec discord
 bindsym $mod+i 			exec urxvt -e htop
 
-##audio keys (by intervals of 5)(for Thinkpad T400)
+##audio keys (by intervals of 5)(for Thinkpad T400)(requires pulseaudio-alsa)
 #bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 5+ unmute"
 #bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 5- unmute"
 #bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
