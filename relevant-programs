@@ -30,6 +30,7 @@ ncmpcpp
 mpv
 xdg-utils (for opening links, comes with firefox)
 pulseaudio-alsa (allows unmuting once pulseaudio is installed)
+keepassxc
 
 #bluetooth
 bluez
@@ -48,6 +49,9 @@ htop
 librewolf (or if you want minimalism, surf or qutebrowser)
 ranger
 w3m (for ranger image preview)
+vscodium (AUR)
+lunar-magic(AUR)(mario world editor)
+kjv-git(AUR)
 
 fprintd for fingerprint reader
 
@@ -59,10 +63,6 @@ mari0
 nottetris2(AUR)
 notpacman(AUR)
 runelite(AUR)
-
-
-lunar-magic(AUR)(mario world editor)
-kjv-git(AUR)
 
 
 
