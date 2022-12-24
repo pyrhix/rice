@@ -29,7 +29,7 @@ mpd
 ncmpcpp
 mpv
 xdg-utils (for opening links, comes with firefox)
-pulseaudio-alsa (allows unmuting once pulseaudio is installed)
+pulseaudio-alsa (allows unmuting once pulseaudio is installed, doesnt seem to be needed anymore)
 keepassxc
 
 #bluetooth
@@ -40,7 +40,7 @@ pavucontrol
 paprefs (for simultaneous audio through multiple sources)
 sudo systemctl enable bluetooth.service
 pulseaudio-bluetooth
-blueman
+blueman (gui for blueooth, you dont need it if you use bluetoothctl instead)
 
 #suggestions
 spotify-adblock-git(AUR)
