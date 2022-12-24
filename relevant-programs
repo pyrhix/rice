@@ -71,7 +71,9 @@ runelite(AUR)
 ========================================================
 
   important to remember terminal commands
-
+  
+  
+find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc (enables syntax highlighting)
 nmcli device wifi connect [ssid] password [password]
 xrdb ~/.Xresources
 feh --bg-scale ~/Downloads/1552510708377.png
